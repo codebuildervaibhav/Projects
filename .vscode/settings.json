@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.rmd": "markdown",
+        "iostream": "cpp",
+        "PERIODIC.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "cmake.sourceDirectory": "${workspaceFolder}/cpp/vcpkg/docs/examples/vcpkg_android_example_cmake"
+}
