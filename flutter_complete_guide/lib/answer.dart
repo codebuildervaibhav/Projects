@@ -14,7 +14,7 @@ class Answer extends StatelessWidget {
       margin: EdgeInsets.all(3),
       // ignore: deprecated_member_use
       child: RaisedButton(
-        color: Colors.amber[200],
+        color: Colors.cyan[200],
         textColor: Colors.pink[200],
         child: Text(answerText),
         onPressed: selectHandler
