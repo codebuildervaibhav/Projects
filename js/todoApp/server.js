@@ -50,7 +50,7 @@ res.send(`<!DOCTYPE html>
         </ul>
         
       </div>
-      
+    <script src="/browser.js">alert("Hello")</script>  
     </body>
     </html>`)
   })
