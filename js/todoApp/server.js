@@ -4,6 +4,8 @@ let mongodb= require('mongodb');
 let app= express()
 let db
 
+app.use(express.static('public'))
+
 let connectionString='mongodb+srv://codebuildervaibhav:wb7M_8!qBBpnneA@cluster0.6pftd8r.mongodb.net/todoapp?retryWrites=true&w=majority'
 mongodb.connect(connectionString , {useNewUrlParser:true} , function(err,client){
    db = client.db()
