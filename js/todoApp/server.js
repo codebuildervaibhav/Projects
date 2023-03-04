@@ -13,6 +13,7 @@ mongodb.connect(connectionString , {useNewUrlParser:true} , function(err,client)
     app.listen(3000)
 })
 
+app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
 app.get('/',function(req,res){
@@ -52,6 +53,7 @@ res.send(`<!DOCTYPE html>
         </ul>
         
       </div>
+      <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script src="/browser.js">alert("Hello")</script>  
     </body>
     </html>`)
@@ -64,5 +66,14 @@ app.post('/create-item', function(req,res){
   db.collection('items').insertOne({text: req.body.item }, function(){
     res.redirect('/')
   })
-  //res.send("thanks for submitting the form.")
+})
+
+app.post('/update-item', function(req,res){
+  //UD2
+ // db.collection('items').findOneAndUpdate(a, { $set: { text: req.body.text} }, function(){
+ //   res.send("Success")
+ // })
+  //ud2
+  console.log(req.body.text)
+  res.send("Success")
 })
