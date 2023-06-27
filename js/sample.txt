@@ -1,0 +1,15 @@
+Agenda
+Pre-defined modules (buffer , etc) — Discussion basis
+Modules managed by npm (Nodemon, Chalk, etc.)
+User Defined modules
+Debugging Node.js application
+Let’s take a look at a few more Core modules of NodeJS.
+
+Buffer
+Buffer objects are used to represent a fixed-length sequence of bytes. Many Node.js APIs support Buffers.
+
+The Buffer class is a subclass of JavaScript's Uint8Array class and extends it with methods that cover additional use cases. Node.js APIs accept plain Uint8Arrays wherever Buffers are supported as well.
+
+While the Buffer class is available within the global scope, it is still recommended to explicitly reference it via an import or require statement.
+
+Example :
