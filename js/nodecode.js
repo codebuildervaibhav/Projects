@@ -31,4 +31,3 @@ readStream.on("data",data   => {
     console,log("********************************");
 
 });
-
