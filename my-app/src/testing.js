@@ -41,4 +41,24 @@ const testing = () => {
 //     React.createElement("h1", {}, "hello world")
 //   );
 // };
+/* 
+ <Book
+         img={firstBook.img}
+         title={firstBook.title}
+         author={firstBook.author}
+         
+        >
 
+       </Book>
+       <Book
+         img={secondBook.img}
+         title={secondBook.title}
+         author={secondBook.author}
+       /> */
+       
+// function Author() {
+//   return (
+//     <h4 style={{ color: '#617d98', fontSize: '0.75rem', marginTop: '0.25rem' }}>
+//       Robert Grene
+//     </h4>);
+// }

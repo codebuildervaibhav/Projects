@@ -11,19 +11,20 @@ body{
 .booklist{
     width: 90vu;
     max-width: 1170px;
-    margin: 5rem auto;
+    margin: 5rem ;
     display: grid;
     gap: 2rem;
 }
 @media screen and ( min-width:786px){
     .booklist{
         grid-template-columns: repeat(3,1fr);
+        /* align-items: flex-start; */
     }
 }
 .book{
-    background-color: aquamarine;
+    background-color: white;
     border-radius: 1rem;
-    padding: 1rem 2 rem;
+    padding: 2rem ;
 }
 .book h1{
     margin-top: 0.5rem;
@@ -31,4 +32,7 @@ body{
 .book h4{ color: '#f17d98';
     font-size: 0.75rem ;
     margin-top: 0.25rem;
+}
+.book p{
+    margin-top: 0.5rem;
 }
