@@ -10,8 +10,7 @@ const UseEffectBasics = () => {
     {
     document.title = `New Messagers(${value}) `;
 }
-  }
-  );
+  },[value] );
   console.log(('render component'));
   return (
     <>
